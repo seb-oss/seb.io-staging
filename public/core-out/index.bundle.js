@@ -423,7 +423,7 @@
           ${s}
         </button>`,()=>s6)}`},ev=new WeakSet,em=function(e){let t=new Date(e);this._elCalendar.then(e=>e.focusedDate=t).then(tf(this,eO))},eb=new WeakSet,e_=function(e){return({year:sm("Year"),month:sm("Month"),day:sm("Day")})[e]},e$=new WeakSet,ew=function(e){return({year:1900,month:1,day:1})[e]},eA=new WeakSet,ex=function(e){return({year:9999,month:12,day:31})[e]},ek=new WeakSet,eE=function(){this.dispatchEvent(new CustomEvent("change",{detail:{value:this.value}}))},eC=new WeakSet,eS=function(){this.dispatchEvent(new CustomEvent("input",{detail:{value:this.value}}))},eM=new WeakMap,eF=new WeakMap,eT=new WeakMap,eD=new WeakMap,eN=new WeakMap,eW=new WeakMap,ez=new WeakMap,eL=new WeakMap,eH=new WeakMap,eR=new WeakMap,eO=new WeakMap,eP=new WeakMap,eV=new WeakMap,eB=new WeakSet,eI=function(e){let t=e.replace(/[a-z0-9]/gi,"")[0],s=e.split(t),i=s.findIndex(e=>"y"===e),r=s.findIndex(e=>"m"===e),o=s.findIndex(e=>"d"===e);if(-1===i||-1===r||-1===o)throw Error("Invalid date format for <gds-datepicker>");return{delimiter:t,layout:[i,r,o].sort((e,t)=>e-t).map(e=>s[e]).map(e=>({token:e,name:"y"===e?"year":"m"===e?"month":"day"}))}},eU=new WeakMap,ej=new WeakMap,eY=new WeakSet,eG=function(){let e=this.min.getFullYear(),t=this.max.getFullYear(),s=tf(this,eq,eK),i=this.value?.getFullYear();return{*[Symbol.iterator](){s&&(yield i);for(let s=e;s<=t;s++)yield s}}},eq=new WeakSet,eK=function(){return!!this.value&&(this.value.getFullYear()<this.min.getFullYear()||this.value.getFullYear()>this.max.getFullYear())},oX.styles=[oK],oX.shadowRootOptions={mode:"open",delegatesFocus:!0},tp([tA({converter:oZ})],oX.prototype,"value",2),tp([tA({converter:oZ})],oX.prototype,"min",2),tp([tA({converter:oZ})],oX.prototype,"max",2),tp([tA({type:Boolean})],oX.prototype,"open",2),tp([tA()],oX.prototype,"label",2),tp([tA({type:Boolean,attribute:"show-week-numbers"})],oX.prototype,"showWeekNumbers",2),tp([tA()],oX.prototype,"size",2),tp([tA({type:Boolean,attribute:"hide-label"})],oX.prototype,"hideLabel",2),tp([tA()],oX.prototype,"dateformat",1),tp([tA({type:Boolean,attribute:"disabled-weekends"})],oX.prototype,"disabledWeekends",2),tp([tA({converter:{fromAttribute:e=>e.split(",").map(e=>new Date(e.trim())),toAttribute:e=>JSON.stringify(e.map(e=>e.toISOString()))},attribute:"disabled-dates"})],oX.prototype,"disabledDates",2),tp([tC("#calendar-button")],oX.prototype,"test_calendarButton",2),tp([tx()],oX.prototype,"_focusedMonth",2),tp([tx()],oX.prototype,"_focusedYear",2),tp([tx()],oX.prototype,"_dateFormatLayout",2),tp([tC("#calendar")],oX.prototype,"_elCalendar",2),tp([tC("#trigger")],oX.prototype,"_elTrigger",2),tp([(s=function(e){return i_.get(e)??e}("gds-date-part-spinner"),tk({descriptor:e=>({get(){var e,t;return null!==(t=null===(e=this.renderRoot)||void 0===e?void 0:e.querySelectorAll(s))&&void 0!==t?t:[]},enumerable:!0,configurable:!0})}))],oX.prototype,"_elSpinners",2),tp([tE(".input")],oX.prototype,"_elInput",2),tp([tx()],oX.prototype,"_tStyles",2),tp([s_("value")],oX.prototype,"_handleValueChange",1),tp([s_("open")],oX.prototype,"_handleOpenChange",1),oX=tp([i$("gds-datepicker")],oX);var oJ=`/**
  * Do not edit directly
- * Generated on Tue, 23 Apr 2024 08:33:00 GMT
+ * Generated on Tue, 23 Apr 2024 14:05:12 GMT
  */
 
 :host {
@@ -541,7 +541,7 @@
 }
 `,oQ=`/**
  * Do not edit directly
- * Generated on Tue, 23 Apr 2024 08:33:00 GMT
+ * Generated on Tue, 23 Apr 2024 14:05:12 GMT
  */
 
 :host {
@@ -697,7 +697,7 @@
 }
 `,o0=[sE(`/**
  * Do not edit directly
- * Generated on Tue, 23 Apr 2024 08:33:00 GMT
+ * Generated on Tue, 23 Apr 2024 14:05:12 GMT
  */
 
 :host {
