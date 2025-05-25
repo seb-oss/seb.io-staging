@@ -1,73 +1,35 @@
-2:I[2919,["3384","static/chunks/3384-bfaa55c078b52b29.js","7836","static/chunks/7836-8e397cdcc0969864.js","2251","static/chunks/2251-cd4f61cb83ac6ee5.js","8985","static/chunks/app/component/%5Bslug%5D/page-668f9f815d6669da.js"],"Mdx"]
-4:I[5053,["40","static/chunks/40-8554bcd1ca8a0933.js","3384","static/chunks/3384-bfaa55c078b52b29.js","303","static/chunks/303-eee607300307a2f3.js","4756","static/chunks/4756-e8efe0ba4432f9e0.js","7836","static/chunks/7836-8e397cdcc0969864.js","3165","static/chunks/3165-cbf4927e02555afe.js","2377","static/chunks/2377-eeb0a219e29e92dc.js","3305","static/chunks/3305-e2664de304ec456b.js","8162","static/chunks/app/component/%5Bslug%5D/layout-8636a663fc3c8db9.js"],"default",1]
-5:I[5092,[],""]
-7:I[2023,[],""]
-8:I[3862,["40","static/chunks/40-8554bcd1ca8a0933.js","3384","static/chunks/3384-bfaa55c078b52b29.js","4756","static/chunks/4756-e8efe0ba4432f9e0.js","7567","static/chunks/7567-3b78872a6e44a181.js","7836","static/chunks/7836-8e397cdcc0969864.js","3165","static/chunks/3165-cbf4927e02555afe.js","3305","static/chunks/3305-e2664de304ec456b.js","3185","static/chunks/app/layout-9cb141bfe3fcf1db.js"],"default",1]
-9:I[4779,["3384","static/chunks/3384-bfaa55c078b52b29.js","7836","static/chunks/7836-8e397cdcc0969864.js","2453","static/chunks/2453-53e59cba34775a9b.js","6036","static/chunks/6036-b6a1a67cecce1119.js","1931","static/chunks/app/page-c9d97fc83a436598.js"],"GdsFlex"]
-a:I[4779,["3384","static/chunks/3384-bfaa55c078b52b29.js","7836","static/chunks/7836-8e397cdcc0969864.js","2453","static/chunks/2453-53e59cba34775a9b.js","6036","static/chunks/6036-b6a1a67cecce1119.js","1931","static/chunks/app/page-c9d97fc83a436598.js"],"GdsDiv"]
-b:I[4779,["3384","static/chunks/3384-bfaa55c078b52b29.js","7836","static/chunks/7836-8e397cdcc0969864.js","2453","static/chunks/2453-53e59cba34775a9b.js","6036","static/chunks/6036-b6a1a67cecce1119.js","1931","static/chunks/app/page-c9d97fc83a436598.js"],"GdsText"]
-c:I[5259,["3384","static/chunks/3384-bfaa55c078b52b29.js","9160","static/chunks/app/not-found-74331d57317db11a.js"],"Link"]
-3:T2381,var Component=(()=>{var u=Object.create;var l=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(i,e)=>()=>(e||i((e={exports:{}}).exports,e),e.exports),x=(i,e)=>{for(var o in e)l(i,o,{get:e[o],enumerable:!0})},s=(i,e,o,a)=>{if(e&&typeof e=="object"||typeof e=="function")for(let t of m(e))!f.call(i,t)&&t!==o&&l(i,t,{get:()=>e[t],enumerable:!(a=p(e,t))||a.enumerable});return i};var v=(i,e,o)=>(o=i!=null?u(b(i)):{},s(e||!i||!i.__esModule?l(o,"default",{value:i,enumerable:!0}):o,i)),w=i=>s(l({},"__esModule",{value:!0}),i);var d=g((L,c)=>{c.exports=_jsx_runtime});var D={};x(D,{default:()=>k,frontmatter:()=>y});var n=v(d()),y={title:"Radio button",summary:"A radio button allows users to select one option from a predefined set of mutually exclusive choices.",date:new Date(17127072e5),status:"BETA",tags:"forms"};function h(i){let e=Object.assign({h2:"h2",a:"a",span:"span",p:"p",ul:"ul",li:"li",strong:"strong",ol:"ol",h3:"h3"},i.components),{Figma:o,Badge:a,Grid:t}=e;return a||r("Badge",!0),o||r("Figma",!0),t||r("Grid",!0),(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(e.h2,{id:"usage",children:[(0,n.jsx)(e.a,{className:"anchor",href:"#usage",children:(0,n.jsx)(e.span,{className:"icon icon-link"})}),"Usage"]}),`
-`,(0,n.jsxs)(e.p,{children:["Radio buttons are commonly used in forms, surveys, and settings where users need to make a single selection from a list of options. ",(0,n.jsx)("br",{}),`
-The benefit of using radio buttons over select is that users may easily scan the available options and make a quick selection.`]}),`
-`,(0,n.jsxs)(e.h2,{id:"anatomy",children:[(0,n.jsx)(e.a,{className:"anchor",href:"#anatomy",children:(0,n.jsx)(e.span,{className:"icon icon-link"})}),"Anatomy"]}),`
-`,(0,n.jsx)(e.p,{children:"The radio button (and other form controls) are divided in sections that are re-used between components."}),`
-`,(0,n.jsxs)(e.ul,{children:[`
-`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:"Header"}),": Label, label support, contextual help, extended support."]}),`
-`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:"Body"}),": The radio button."]}),`
-`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:"Footer"}),": Error message."]}),`
-`]}),`
-`,(0,n.jsx)(o,{id:"anatomy",caption:"Anatomy of a radio button."}),`
-`,(0,n.jsxs)(e.ol,{children:[`
-`,(0,n.jsx)(e.li,{children:"Label"}),`
-`,(0,n.jsx)(e.li,{children:"Label support text"}),`
-`,(0,n.jsx)(e.li,{children:"Contextual help"}),`
-`,(0,n.jsx)(e.li,{children:"Extended support text"}),`
-`,(0,n.jsx)(e.li,{children:"Checkbox"}),`
-`,(0,n.jsx)(e.li,{children:"Label support text"}),`
-`]}),`
-`,(0,n.jsxs)(e.h2,{id:"variants",children:[(0,n.jsx)(e.a,{className:"anchor",href:"#variants",children:(0,n.jsx)(e.span,{className:"icon icon-link"})}),"Variants"]}),`
-`,(0,n.jsxs)(e.ul,{children:[`
-`,(0,n.jsx)(e.li,{children:(0,n.jsx)(e.strong,{children:"Default"})}),`
-`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:"Contained"}),": used only in combination with other contained form components."]}),`
-`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(a,{variant:"notice",children:"Coming soon"})," ",(0,n.jsx)(e.strong,{children:"Contained extended"}),": The contained version but including Label support text."]}),`
-`]}),`
-`,(0,n.jsxs)(t,{columns:"2",children:[(0,n.jsx)(o,{id:"variant-1",caption:"Default radio button."}),(0,n.jsx)(o,{id:"variant-2",caption:"Contained radio button."})]}),`
-`,(0,n.jsxs)(e.h2,{id:"features",children:[(0,n.jsx)(e.a,{className:"anchor",href:"#features",children:(0,n.jsx)(e.span,{className:"icon icon-link"})}),"Features"]}),`
-`,(0,n.jsxs)(t,{columns:"2",children:[(0,n.jsxs)("div",{children:[(0,n.jsxs)(e.h3,{id:"label",children:[(0,n.jsx)(e.a,{className:"anchor",href:"#label",children:(0,n.jsx)(e.span,{className:"icon icon-link"})}),"Label"]}),(0,n.jsx)(e.p,{children:"All individual radio buttons must have a label to ensure clarity and accessibility. When radio buttons are grouped, the group must have a header label. Labels help users understand the purpose of the radio buttons, including those using assistive technologies."})]}),(0,n.jsx)(o,{id:"label",caption:"Radio button labels."})]}),`
-`,(0,n.jsxs)(t,{columns:"2",children:[(0,n.jsxs)("div",{children:[(0,n.jsxs)(e.h3,{id:"label-support",children:[(0,n.jsx)(e.a,{className:"anchor",href:"#label-support",children:(0,n.jsx)(e.span,{className:"icon icon-link"})}),"Label support"]}),(0,n.jsx)(e.p,{children:"This can be used for both the header and individual radio buttons. Use this to explain how to fill in the field, for example how to count or what to include. Contained radio buttons don\u2019t have support text for the individual radio buttons."})]}),(0,n.jsx)(o,{id:"label-support-text",caption:"Radio buttons with support texts."})]}),`
-`,(0,n.jsxs)(e.h3,{id:"contextual-help",children:[(0,n.jsx)(e.a,{className:"anchor",href:"#contextual-help",children:(0,n.jsx)(e.span,{className:"icon icon-link"})}),"Contextual help"]}),`
-`,(0,n.jsx)(e.p,{children:`If the label and support text are not enough to explain a field, we can use the info icon.
-Clicking the icon shows additional support text between the label support and the field.`}),`
-`,(0,n.jsxs)(e.ul,{children:[`
-`,(0,n.jsx)(e.li,{children:"Use a tooltip if space is limited."}),`
-`,(0,n.jsx)(e.li,{children:"Use a modal for large amounts of text."}),`
-`]}),`
-`,(0,n.jsxs)(t,{columns:"2",children:[(0,n.jsx)(o,{id:"contextual-1",caption:"Info icon button to reach help."}),(0,n.jsx)(o,{id:"contextual-2",caption:"Extended support visible."})]}),`
-`,(0,n.jsxs)(e.h3,{id:"error-message",children:[(0,n.jsx)(e.a,{className:"anchor",href:"#error-message",children:(0,n.jsx)(e.span,{className:"icon icon-link"})}),"Error message"]}),`
-`,(0,n.jsx)(e.p,{children:"If an error occurs we mark the entire group of options with error. The error is described with an error message."}),`
-`,(0,n.jsxs)(t,{columns:"2",children:[(0,n.jsx)(o,{id:"error-default",caption:"Default radio buttons with error."}),(0,n.jsx)(o,{id:"error-contained",caption:"Extended support visible."})]}),`
-`,(0,n.jsxs)(e.h2,{id:"behaviour",children:[(0,n.jsx)(e.a,{className:"anchor",href:"#behaviour",children:(0,n.jsx)(e.span,{className:"icon icon-link"})}),"Behaviour"]}),`
-`,(0,n.jsxs)(e.ul,{children:[`
-`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:"Mutual exclusivity"}),": Only one radio button within a group can be selected at a time."]}),`
-`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:"Defaults"}),": Aim for having one option pre-selected."]}),`
-`]}),`
-`,(0,n.jsxs)(e.h2,{id:"alignment",children:[(0,n.jsx)(e.a,{className:"anchor",href:"#alignment",children:(0,n.jsx)(e.span,{className:"icon icon-link"})}),"Alignment"]}),`
-`,(0,n.jsx)(e.p,{children:"We can align the radio buttons both horizontal and vertical."}),`
-`,(0,n.jsxs)(e.ul,{children:[`
-`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:"Vertical"}),": This is the default alignment. It's easier to read and scan the available options."]}),`
-`,(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:"Horizontal"}),": Only used for a small set of options if the page shouldn't be to long, but try to avoid."]}),`
-`]}),`
-`,(0,n.jsxs)(t,{columns:"2",children:[(0,n.jsx)(o,{id:"alignment-1",caption:"Default radio buttons with vertical alignment."}),(0,n.jsx)(o,{id:"alignment-2",caption:"Default radio buttons with horizontal alignment."}),(0,n.jsx)(o,{id:"alignment-3",caption:"Contained radio buttons with vertical alignment."}),(0,n.jsx)(o,{id:"alignment-4",caption:"Contained radio buttons with horizontal alignment."})]}),`
-`,(0,n.jsxs)(e.h2,{id:"dos-and-donts",children:[(0,n.jsx)(e.a,{className:"anchor",href:"#dos-and-donts",children:(0,n.jsx)(e.span,{className:"icon icon-link"})}),"Do's and Don'ts"]}),`
-`,(0,n.jsxs)(t,{columns:"2",children:[(0,n.jsxs)("div",{children:[(0,n.jsxs)(e.h3,{id:"do",children:[(0,n.jsx)(e.a,{className:"anchor",href:"#do",children:(0,n.jsx)(e.span,{className:"icon icon-link"})}),"Do"]}),(0,n.jsxs)(e.ul,{children:[`
-`,(0,n.jsx)(e.li,{children:"Have at least two options."}),`
-`]})]}),(0,n.jsxs)("div",{children:[(0,n.jsxs)(e.h3,{id:"dont",children:[(0,n.jsx)(e.a,{className:"anchor",href:"#dont",children:(0,n.jsx)(e.span,{className:"icon icon-link"})}),"Don't"]}),(0,n.jsxs)(e.ul,{children:[`
-`,(0,n.jsx)(e.li,{children:"Don\u2019t use radio buttons for non-mutually exclusive options; consider checkboxes instead."}),`
-`,(0,n.jsx)(e.li,{children:"Don\u2019t overwhelm users with too many radio buttons on a single page or form. If you need to show many options, use a single select dropdown instead."}),`
-`,(0,n.jsx)(e.li,{children:"Don\u2019t mix default and contained versions."}),`
-`]})]})]})]})}function N(i={}){let{wrapper:e}=i.components||{};return e?(0,n.jsx)(e,Object.assign({},i,{children:(0,n.jsx)(h,i)})):h(i)}var k=N;function r(i,e){throw new Error("Expected "+(e?"component":"object")+" `"+i+"` to be defined: you likely forgot to import, pass, or provide it.")}return w(D);})();
-;return Component;6:["slug","radio","d"]
-0:["JvCxyuVoVlHOp9K_jH4IR",[[["",{"children":["component",{"children":[["slug","radio","d"],{"children":["__PAGE__?{\"slug\":\"radio\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["component",{"children":[["slug","radio","d"],{"children":["__PAGE__",{},[["$L1",[["$","script",null,{"type":"application/ld+json","suppressHydrationWarning":true,"dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Thing\",\"description\":\"A radio button allows users to select one option from a predefined set of mutually exclusive choices.\",\"url\":\"https://seb.io/component/radio\",\"author\":{\"@type\":\"Company\",\"name\":\"SEB\"}}"}}],null,["$","$L2",null,{"code":"$3","globals":{"slug":"radio"}}]],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/3193eebeef4f1a40.css","precedence":"next","crossOrigin":"$undefined"}]]],null],null]},[[null,["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","component","children","$6","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}],"params":{"slug":"radio"}}]],null],null]},[null,["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children","component","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/39305a9c164490f3.css","precedence":"next","crossOrigin":"$undefined"}]],["$","$L8",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L9",null,{"flex-direction":"column","gap":"4xl","children":[["$","$La",null,{"children":[["$","$Lb",null,{"font-size":"display-2xl","children":"404"}],["$","$Lb",null,{"tag":"h1","children":"Page Not Found"}]]}],["$","$Lc",null,{"href":"/","children":"Go back"}]]}],"notFoundStyles":[]}],"params":{}}]],null],null],["$Ld",null]]]]
-d:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Radio button — Green Design System"}],["$","meta","3",{"name":"description","content":"A radio button allows users to select one option from a predefined set of mutually exclusive choices."}],["$","meta","4",{"name":"next-size-adjust"}]]
-1:null
+1:"$Sreact.fragment"
+2:I[3400,["198","static/chunks/198-95a98d6e5baa75c2.js","810","static/chunks/810-c67fc6abc663f85d.js","19","static/chunks/19-4c1e797e348922bf.js","58","static/chunks/58-eaead533cf58e2cc.js","336","static/chunks/336-8d59a28a4bc7d692.js","655","static/chunks/655-982f2c562be1b6af.js","177","static/chunks/app/layout-faa8cf3e109fb657.js"],"SettingsProvider"]
+3:I[1774,["198","static/chunks/198-95a98d6e5baa75c2.js","810","static/chunks/810-c67fc6abc663f85d.js","19","static/chunks/19-4c1e797e348922bf.js","58","static/chunks/58-eaead533cf58e2cc.js","336","static/chunks/336-8d59a28a4bc7d692.js","655","static/chunks/655-982f2c562be1b6af.js","177","static/chunks/app/layout-faa8cf3e109fb657.js"],"Root"]
+4:I[7132,[],""]
+5:I[5082,[],""]
+6:I[6742,["345","static/chunks/app/not-found-d4ff5dc5a2b98e9e.js"],"default"]
+9:I[700,[],"MetadataBoundary"]
+b:I[700,[],"OutletBoundary"]
+e:I[7748,[],"AsyncMetadataOutlet"]
+10:I[700,[],"ViewportBoundary"]
+12:I[9699,[],""]
+:HL["/_next/static/media/0484d70d159c3cf5-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/273f14a000ef3caa-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/35b5099322a5effe-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/4d524d503783d1ea-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/751dfec221592955-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/7b747b01e0adee05-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/8180995c57a3f115-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/ba908e6ad8426e14-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/e207c4f264ed41c6-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/f845eab12439b7cd-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/0235fb9c87f4971a.css","style"]
+0:{"P":null,"b":"OtKJIdgokOXSbwCyJgqa1","p":"","c":["","component","radio"],"i":false,"f":[[["",{"children":["component",{"children":[["slug","radio","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/0235fb9c87f4971a.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"children":["$","$L2",null,{"children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L6",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]}]]}],{"children":["component",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","radio","d"],["$","$1","c",{"children":[null,"$L7"]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L8",["$","$L9",null,{"children":"$La"}],null,["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","lsiS9cc0HBoCXNfX6FZw3",{"children":[["$","$L10",null,{"children":"$L11"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$12","$undefined"],"s":false,"S":true}
+13:I[1407,["198","static/chunks/198-95a98d6e5baa75c2.js","810","static/chunks/810-c67fc6abc663f85d.js","19","static/chunks/19-4c1e797e348922bf.js","58","static/chunks/58-eaead533cf58e2cc.js","336","static/chunks/336-8d59a28a4bc7d692.js","655","static/chunks/655-982f2c562be1b6af.js","193","static/chunks/app/component/%5Bslug%5D/layout-481ff6d354093ec2.js"],"ComponentLayoutClient"]
+14:I[3268,["198","static/chunks/198-95a98d6e5baa75c2.js","58","static/chunks/58-eaead533cf58e2cc.js","46","static/chunks/app/component/%5Bslug%5D/page-aeace3c7bd7334b1.js"],"OverviewClient"]
+15:"$Sreact.suspense"
+16:I[7748,[],"AsyncMetadata"]
+7:["$","$L13",null,{"slug":"radio","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]
+8:["$","$L14",null,{"slug":"radio"}]
+a:["$","$15",null,{"fallback":null,"children":["$","$L16",null,{"promise":"$@17"}]}]
+d:null
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+c:null
+17:{"metadata":[],"error":null,"digest":"$undefined"}
+f:{"metadata":"$17:metadata","error":null,"digest":"$undefined"}

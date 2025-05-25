@@ -1,38 +1,35 @@
-2:I[2919,["3384","static/chunks/3384-bfaa55c078b52b29.js","7836","static/chunks/7836-8e397cdcc0969864.js","2251","static/chunks/2251-cd4f61cb83ac6ee5.js","9102","static/chunks/app/component/%5Bslug%5D/accessibility/page-e10bc6b9d7c6df27.js"],"Mdx"]
-4:I[5092,[],""]
-6:I[2023,[],""]
-7:I[5053,["40","static/chunks/40-8554bcd1ca8a0933.js","3384","static/chunks/3384-bfaa55c078b52b29.js","303","static/chunks/303-eee607300307a2f3.js","4756","static/chunks/4756-e8efe0ba4432f9e0.js","7836","static/chunks/7836-8e397cdcc0969864.js","3165","static/chunks/3165-cbf4927e02555afe.js","2377","static/chunks/2377-eeb0a219e29e92dc.js","3305","static/chunks/3305-e2664de304ec456b.js","8162","static/chunks/app/component/%5Bslug%5D/layout-8636a663fc3c8db9.js"],"default",1]
-8:I[3862,["40","static/chunks/40-8554bcd1ca8a0933.js","3384","static/chunks/3384-bfaa55c078b52b29.js","4756","static/chunks/4756-e8efe0ba4432f9e0.js","7567","static/chunks/7567-3b78872a6e44a181.js","7836","static/chunks/7836-8e397cdcc0969864.js","3165","static/chunks/3165-cbf4927e02555afe.js","3305","static/chunks/3305-e2664de304ec456b.js","3185","static/chunks/app/layout-9cb141bfe3fcf1db.js"],"default",1]
-9:I[4779,["3384","static/chunks/3384-bfaa55c078b52b29.js","7836","static/chunks/7836-8e397cdcc0969864.js","2453","static/chunks/2453-53e59cba34775a9b.js","6036","static/chunks/6036-b6a1a67cecce1119.js","1931","static/chunks/app/page-c9d97fc83a436598.js"],"GdsFlex"]
-a:I[4779,["3384","static/chunks/3384-bfaa55c078b52b29.js","7836","static/chunks/7836-8e397cdcc0969864.js","2453","static/chunks/2453-53e59cba34775a9b.js","6036","static/chunks/6036-b6a1a67cecce1119.js","1931","static/chunks/app/page-c9d97fc83a436598.js"],"GdsDiv"]
-b:I[4779,["3384","static/chunks/3384-bfaa55c078b52b29.js","7836","static/chunks/7836-8e397cdcc0969864.js","2453","static/chunks/2453-53e59cba34775a9b.js","6036","static/chunks/6036-b6a1a67cecce1119.js","1931","static/chunks/app/page-c9d97fc83a436598.js"],"GdsText"]
-c:I[5259,["3384","static/chunks/3384-bfaa55c078b52b29.js","9160","static/chunks/app/not-found-74331d57317db11a.js"],"Link"]
-3:Tf4d,var Component=(()=>{var h=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var b=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var f=(i,n)=>()=>(n||i((n={exports:{}}).exports,n),n.exports),g=(i,n)=>{for(var a in n)o(i,a,{get:n[a],enumerable:!0})},c=(i,n,a,r)=>{if(n&&typeof n=="object"||typeof n=="function")for(let s of m(n))!u.call(i,s)&&s!==a&&o(i,s,{get:()=>n[s],enumerable:!(r=p(n,s))||r.enumerable});return i};var y=(i,n,a)=>(a=i!=null?h(b(i)):{},c(n||!i||!i.__esModule?o(a,"default",{value:i,enumerable:!0}):a,i)),w=i=>c(o({},"__esModule",{value:!0}),i);var l=f((_,t)=>{t.exports=_jsx_runtime});var j={};g(j,{default:()=>x,frontmatter:()=>k});var e=y(l()),k={title:"Accessibility",date:new Date(17417376e5)};function d(i){let n=Object.assign({h2:"h2",a:"a",span:"span",p:"p",h3:"h3",strong:"strong",ul:"ul",li:"li"},i.components),{Badge:a}=n;return a||N("Badge",!0),(0,e.jsxs)(e.Fragment,{children:[(0,e.jsxs)(n.h2,{id:"accessibility",children:[(0,e.jsx)(n.a,{className:"anchor",href:"#accessibility",children:(0,e.jsx)(n.span,{className:"icon icon-link"})}),"Accessibility"]}),`
-`,(0,e.jsx)(n.p,{children:"All values we measure need to pass in order to give a check on the accessibility on all our components."}),`
-`,(0,e.jsxs)(n.h3,{id:"review",children:[(0,e.jsx)(n.a,{className:"anchor",href:"#review",children:(0,e.jsx)(n.span,{className:"icon icon-link"})}),"Review"]}),`
-`,(0,e.jsx)(n.p,{children:(0,e.jsx)(n.strong,{children:"Review button, webcomponent 2025-03-12 - PASSED"})}),`
-`,(0,e.jsxs)(n.ul,{children:[`
-`,(0,e.jsx)(n.li,{children:"Contrast: Passed"}),`
-`,(0,e.jsx)(n.li,{children:"Aria-label: Passed"}),`
-`,(0,e.jsx)(n.li,{children:"Keyboard Passed"}),`
-`,(0,e.jsxs)(n.li,{children:["Darkmode: Passed ",(0,e.jsx)("br",{}),"Low contrast between expandable info text and background, but low affect, so OK."]}),`
-`,(0,e.jsx)(n.li,{children:"Focus: Passed"}),`
-`,(0,e.jsx)(n.li,{children:"Screen reader: Passed"}),`
-`]}),`
-`,(0,e.jsxs)(n.h2,{id:"important-considerations",children:[(0,e.jsx)(n.a,{className:"anchor",href:"#important-considerations",children:(0,e.jsx)(n.span,{className:"icon icon-link"})}),"Important considerations"]}),`
-`,(0,e.jsxs)(n.h3,{id:"keyboard-navigation",children:[(0,e.jsx)(n.a,{className:"anchor",href:"#keyboard-navigation",children:(0,e.jsx)(n.span,{className:"icon icon-link"})}),"Keyboard navigation"]}),`
-`,(0,e.jsx)(n.p,{children:"Uses default navigation: Tabs as normal and trigger on key-up with space and on key-down with enter and selecting options with arrow up and down."}),`
-`,(0,e.jsxs)(n.h3,{id:"animation",children:[(0,e.jsx)(n.a,{className:"anchor",href:"#animation",children:(0,e.jsx)(n.span,{className:"icon icon-link"})}),"Animation"]}),`
-`,(0,e.jsx)(n.p,{children:"Hopefully in future it will be possible to turn of the animation by a user setting."}),`
-`,(0,e.jsxs)(n.h2,{id:"resources",children:[(0,e.jsx)(n.a,{className:"anchor",href:"#resources",children:(0,e.jsx)(n.span,{className:"icon icon-link"})}),"Resources"]}),`
-`,(0,e.jsxs)(n.ul,{children:[`
-`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.a,{href:"https://designlibrary.sebank.se/foundation/accessibility/accessibility-at-seb/",children:"Accessibility / Design Library"})}),`
-`,(0,e.jsx)(n.li,{children:(0,e.jsx)(n.a,{href:"/foundation/accessibility",children:"Accessibility / SEB overall accessibility guidelines - todo"})}),`
-`]}),`
-`,(0,e.jsx)(a,{variant:"notice",children:"More coming soon"}),`
-`,(0,e.jsx)("br",{}),`
-`,(0,e.jsx)(n.p,{children:"This page will be updated with information soon."})]})}function v(i={}){let{wrapper:n}=i.components||{};return n?(0,e.jsx)(n,Object.assign({},i,{children:(0,e.jsx)(d,i)})):d(i)}var x=v;function N(i,n){throw new Error("Expected "+(n?"component":"object")+" `"+i+"` to be defined: you likely forgot to import, pass, or provide it.")}return w(j);})();
-;return Component;5:["slug","dropdown","d"]
-0:["JvCxyuVoVlHOp9K_jH4IR",[[["",{"children":["component",{"children":[["slug","dropdown","d"],{"children":["accessibility",{"children":["__PAGE__?{\"slug\":\"dropdown\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["component",{"children":[["slug","dropdown","d"],{"children":["accessibility",{"children":["__PAGE__",{},[["$L1",["$","$L2",null,{"code":"$3","globals":{}}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/3193eebeef4f1a40.css","precedence":"next","crossOrigin":"$undefined"}]]],null],null]},[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","component","children","$5","children","accessibility","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[null,["$","$L7",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","component","children","$5","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}],"params":{"slug":"dropdown"}}]],null],null]},[null,["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children","component","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/39305a9c164490f3.css","precedence":"next","crossOrigin":"$undefined"}]],["$","$L8",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L9",null,{"flex-direction":"column","gap":"4xl","children":[["$","$La",null,{"children":[["$","$Lb",null,{"font-size":"display-2xl","children":"404"}],["$","$Lb",null,{"tag":"h1","children":"Page Not Found"}]]}],["$","$Lc",null,{"href":"/","children":"Go back"}]]}],"notFoundStyles":[]}],"params":{}}]],null],null],["$Ld",null]]]]
-d:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Accessibility - Dropdown — Green Design System"}],["$","meta","3",{"name":"description","content":"A dropdown enables the user to choose one or multiple options from a list."}],["$","meta","4",{"name":"next-size-adjust"}]]
-1:null
+1:"$Sreact.fragment"
+2:I[3400,["198","static/chunks/198-95a98d6e5baa75c2.js","810","static/chunks/810-c67fc6abc663f85d.js","19","static/chunks/19-4c1e797e348922bf.js","58","static/chunks/58-eaead533cf58e2cc.js","336","static/chunks/336-8d59a28a4bc7d692.js","655","static/chunks/655-982f2c562be1b6af.js","177","static/chunks/app/layout-faa8cf3e109fb657.js"],"SettingsProvider"]
+3:I[1774,["198","static/chunks/198-95a98d6e5baa75c2.js","810","static/chunks/810-c67fc6abc663f85d.js","19","static/chunks/19-4c1e797e348922bf.js","58","static/chunks/58-eaead533cf58e2cc.js","336","static/chunks/336-8d59a28a4bc7d692.js","655","static/chunks/655-982f2c562be1b6af.js","177","static/chunks/app/layout-faa8cf3e109fb657.js"],"Root"]
+4:I[7132,[],""]
+5:I[5082,[],""]
+6:I[6742,["345","static/chunks/app/not-found-d4ff5dc5a2b98e9e.js"],"default"]
+9:I[700,[],"MetadataBoundary"]
+b:I[700,[],"OutletBoundary"]
+e:I[7748,[],"AsyncMetadataOutlet"]
+10:I[700,[],"ViewportBoundary"]
+12:I[9699,[],""]
+:HL["/_next/static/media/0484d70d159c3cf5-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/273f14a000ef3caa-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/35b5099322a5effe-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/4d524d503783d1ea-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/751dfec221592955-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/7b747b01e0adee05-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/8180995c57a3f115-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/ba908e6ad8426e14-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/e207c4f264ed41c6-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/f845eab12439b7cd-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/0235fb9c87f4971a.css","style"]
+0:{"P":null,"b":"OtKJIdgokOXSbwCyJgqa1","p":"","c":["","component","dropdown","accessibility"],"i":false,"f":[[["",{"children":["component",{"children":[["slug","dropdown","d"],{"children":["accessibility",{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/0235fb9c87f4971a.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"children":["$","$L2",null,{"children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L6",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]}]]}],{"children":["component",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","dropdown","d"],["$","$1","c",{"children":[null,"$L7"]}],{"children":["accessibility",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L8",["$","$L9",null,{"children":"$La"}],null,["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","zaH6BgFQGw5qOw7afMzWf",{"children":[["$","$L10",null,{"children":"$L11"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$12","$undefined"],"s":false,"S":true}
+13:I[1407,["198","static/chunks/198-95a98d6e5baa75c2.js","810","static/chunks/810-c67fc6abc663f85d.js","19","static/chunks/19-4c1e797e348922bf.js","58","static/chunks/58-eaead533cf58e2cc.js","336","static/chunks/336-8d59a28a4bc7d692.js","655","static/chunks/655-982f2c562be1b6af.js","193","static/chunks/app/component/%5Bslug%5D/layout-481ff6d354093ec2.js"],"ComponentLayoutClient"]
+14:I[9109,["198","static/chunks/198-95a98d6e5baa75c2.js","58","static/chunks/58-eaead533cf58e2cc.js","677","static/chunks/app/component/%5Bslug%5D/accessibility/page-056d6a1246c8efa8.js"],"AccessibilityClient"]
+15:"$Sreact.suspense"
+16:I[7748,[],"AsyncMetadata"]
+7:["$","$L13",null,{"slug":"dropdown","children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]
+8:["$","$L14",null,{"slug":"dropdown"}]
+a:["$","$15",null,{"fallback":null,"children":["$","$L16",null,{"promise":"$@17"}]}]
+d:null
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+c:null
+17:{"metadata":[],"error":null,"digest":"$undefined"}
+f:{"metadata":"$17:metadata","error":null,"digest":"$undefined"}
