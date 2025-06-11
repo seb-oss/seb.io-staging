@@ -1,0 +1,33 @@
+1:"$Sreact.fragment"
+2:I[4385,["99","static/chunks/99-028b90cc6fe84d46.js","2609","static/chunks/2609-ed04f51cde686a53.js","3019","static/chunks/3019-41da92c8ea815c61.js","4890","static/chunks/4890-56f838e423c6c53e.js","7388","static/chunks/7388-32ab19791205cc5a.js","6455","static/chunks/6455-98a0a97d99cb7ca2.js","3784","static/chunks/3784-c58f953f7f4127b9.js","1415","static/chunks/1415-5bf198351a8a520c.js","2068","static/chunks/2068-5df63815c1c8a416.js","6419","static/chunks/6419-820c557b966d4506.js","5443","static/chunks/5443-3d22569bd16ebd6c.js","7177","static/chunks/app/layout-b3a6d9721f934170.js"],"SettingsProvider"]
+3:I[3917,["99","static/chunks/99-028b90cc6fe84d46.js","2609","static/chunks/2609-ed04f51cde686a53.js","3019","static/chunks/3019-41da92c8ea815c61.js","4890","static/chunks/4890-56f838e423c6c53e.js","7388","static/chunks/7388-32ab19791205cc5a.js","6455","static/chunks/6455-98a0a97d99cb7ca2.js","3784","static/chunks/3784-c58f953f7f4127b9.js","1415","static/chunks/1415-5bf198351a8a520c.js","2068","static/chunks/2068-5df63815c1c8a416.js","6419","static/chunks/6419-820c557b966d4506.js","5443","static/chunks/5443-3d22569bd16ebd6c.js","7177","static/chunks/app/layout-b3a6d9721f934170.js"],"Root"]
+4:I[7132,[],""]
+5:I[5082,[],""]
+6:I[6742,["4345","static/chunks/app/not-found-adad52c24edbbae5.js"],"default"]
+7:I[4760,["99","static/chunks/99-028b90cc6fe84d46.js","2609","static/chunks/2609-ed04f51cde686a53.js","3019","static/chunks/3019-41da92c8ea815c61.js","4890","static/chunks/4890-56f838e423c6c53e.js","7388","static/chunks/7388-32ab19791205cc5a.js","6455","static/chunks/6455-98a0a97d99cb7ca2.js","3784","static/chunks/3784-c58f953f7f4127b9.js","1415","static/chunks/1415-5bf198351a8a520c.js","2068","static/chunks/2068-5df63815c1c8a416.js","6419","static/chunks/6419-820c557b966d4506.js","5443","static/chunks/5443-3d22569bd16ebd6c.js","7177","static/chunks/app/layout-b3a6d9721f934170.js"],""]
+8:I[5647,["99","static/chunks/99-028b90cc6fe84d46.js","4990","static/chunks/4990-3bb4ac072b0a3ad9.js","7388","static/chunks/7388-32ab19791205cc5a.js","6455","static/chunks/6455-98a0a97d99cb7ca2.js","3784","static/chunks/3784-c58f953f7f4127b9.js","61","static/chunks/app/accessibility/page-530576de072b4f54.js"],"A11yClient"]
+9:I[700,[],"MetadataBoundary"]
+b:I[700,[],"OutletBoundary"]
+e:I[7748,[],"AsyncMetadataOutlet"]
+10:I[700,[],"ViewportBoundary"]
+12:I[9699,[],""]
+:HL["/_next/static/media/0484d70d159c3cf5-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/273f14a000ef3caa-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/35b5099322a5effe-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/4d524d503783d1ea-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/751dfec221592955-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/7b747b01e0adee05-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/8180995c57a3f115-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/ba908e6ad8426e14-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/e207c4f264ed41c6-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/f845eab12439b7cd-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/a783cedd778e0465.css","style"]
+0:{"P":null,"b":"VxKV4KmmWaiaOq2Si9tN_","p":"","c":["","accessibility"],"i":false,"f":[[["",{"children":["accessibility",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a783cedd778e0465.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"children":[["$","$L2",null,{"children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L6",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}],["$","$L7",null,{"id":"data-layer","children":"window[\"dataLayer\"] = {\n            \"pageName\":\"seb.io\",\n            \"pagetype\":\"StandardPage\",\n            \"language\":\"en\",\n            \"environment\":\"prod\",\n            \"project\":\"green\",\n            \"website\":\"seb.io\",\n          };"}]]}]}]]}],{"children":["accessibility",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L8",null,{}],["$","$L9",null,{"children":"$La"}],null,["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","FqzcFb7d495UPActLkQZ8",{"children":[["$","$L10",null,{"children":"$L11"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$12","$undefined"],"s":false,"S":true}
+13:"$Sreact.suspense"
+14:I[7748,[],"AsyncMetadata"]
+a:["$","$13",null,{"fallback":null,"children":["$","$L14",null,{"promise":"$@15"}]}]
+d:null
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+c:null
+15:{"metadata":[["$","title","0",{"children":"Accessibility — Green Design System"}],["$","link","1",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}]],"error":null,"digest":"$undefined"}
+f:{"metadata":"$15:metadata","error":null,"digest":"$undefined"}
