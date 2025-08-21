@@ -1,1 +1,0 @@
-@layer core{@layer layout.content{.layout-content{grid-area:content;inline-size:100%;max-inline-size:var(--gds-bp-desktop-md);margin-inline:auto}.layout-content ul{margin-block:0;margin-inline:0;padding-left:2ch}.layout-content ul li{list-style:disc}}}
